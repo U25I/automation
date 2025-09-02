@@ -6,7 +6,7 @@ from playwright.async_api import async_playwright, TimeoutError as PlaywrightTim
 # --- Configuration ---
 APP_URL = "https://hiring.idenhq.com/"
 USERNAME = "rakshitha.hr@campusuvce.in"
-PASSWORD = "Mg23Tfuq"
+PASSWORD = "*******"
 SESSION_STATE_FILE = "session_state.json"
 OUTPUT_FILE = "product_data.json"
 
@@ -123,3 +123,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
